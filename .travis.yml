@@ -3,4 +3,4 @@ jdk: openjdk10
 
 script:
   - ./gradlew clean jar
-  - echo "testing coming soon"
+  - ./gradlew test
